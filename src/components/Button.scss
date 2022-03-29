@@ -1,0 +1,16 @@
+$base-color: #0077bb;
+
+.btn {
+  padding: 1rem;
+  background: $base-color;
+  border-radius: 0.75rem;
+  border: none;
+  color: #fff;
+
+  &:hover {
+    transition: all 0.3s ease-out;
+    background: transparent;
+    color: $base-color;
+    border: 1px solid #0b98c6;
+  }
+}
